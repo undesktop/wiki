@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.github.owner_name }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo-container">
+			<a href="{{ site.github.url }}"><img src="{{ site.github.url }}/img/logo.svg" class="logo"></a>
+		</div>
+		<div class="text-container">
+			{{ content }}
+		</div>
+	</div>
+</body>
+</html>
