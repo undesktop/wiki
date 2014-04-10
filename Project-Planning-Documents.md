@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## AskPass
 Replacement for `x11-ssh-askpass`
 
@@ -13,7 +17,7 @@ LightDM Greeter
   * Isn't there a libindicator or something that Canonical developed?
     * Does anyone use that?  Should we?
 
-## [Settings](Project Planning Settings)
+## [Settings](Project-Planning-Settings.html)
 Settings host application
 
 * Use INI or JSON file for settings panels to specify their icon and name and category
