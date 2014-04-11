@@ -5,7 +5,7 @@ layout: default
 # Settings Host Planning
 
 ## Layout Mockup
-![]({{ site.github.url }}/img/Settings-layout.svg)
+![]({{ site.github.url }}/img/Settings-layout.svg){:.wide-image}
 
 ## Other Projects' Solutions
 

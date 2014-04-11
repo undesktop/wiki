@@ -58,6 +58,12 @@ strong {
 .edit-link:hover {
 	color: #000;
 }
+img.wide-image {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
+}
 li.done {
 	text-decoration: line-through;
 	list-style-type: none;
