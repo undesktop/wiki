@@ -6,10 +6,14 @@
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
-/* style */
-body {
+html, body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+/* style */
+body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
@@ -22,6 +26,7 @@ strong {
 	margin: 0 auto;
 	max-width: 800px;
 	width: 100%;
+	min-height: 100%;
 	background-color: hsl(0, 0%, 97%);
 }
 .logo-container {
