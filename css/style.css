@@ -46,3 +46,15 @@ strong {
 .text-container img {
 	max-width: 100%;
 }
+.edit-link {
+	transform: scaleX(-1);
+	float: right;
+	font-size: 25px;
+	display: block;
+	color: #777;
+	text-decoration: none;
+	transition: color .2s;
+}
+.edit-link:hover {
+	color: #000;
+}
