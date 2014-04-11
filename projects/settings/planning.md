@@ -8,6 +8,7 @@ layout: default
 ![]({{ site.github.url }}/img/Settings-layout.svg)
 
 ## Other Projects' Solutions
+
 ### ElementaryOS
 [ElementaryOS](http://launchpad.net/switchboard) seems to handle it via GtkPlug and an ini-format
 `.plugin` file, perhaps aim for compatibility with their API?  Their

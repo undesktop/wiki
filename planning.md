@@ -2,10 +2,12 @@
 layout: default
 ---
 
+{:done: .done}
+
 ## AskPass
 Replacement for `x11-ssh-askpass`
 
-* ~~Copy input concept from `x11-ssh-askpass`~~ **DONE**
+* {:done} Copy input concept from `x11-ssh-askpass`
 * Don't customize through Xresources, use GTK themestuffs.
   * How do we do this best for custom widgets?
 
