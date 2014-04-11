@@ -58,3 +58,16 @@ strong {
 .edit-link:hover {
 	color: #000;
 }
+li.done {
+	text-decoration: line-through;
+	list-style-type: none;
+}
+li.done:before {
+	padding: 2px;
+	color: #33AA33;
+	content: "\2713";
+	margin-left: calc(-1em - 2px);
+	margin-right: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
