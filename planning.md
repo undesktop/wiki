@@ -17,7 +17,7 @@ LightDM Greeter
   * Isn't there a libindicator or something that Canonical developed?
     * Does anyone use that?  Should we?
 
-## [Settings](Project-Planning-Settings.html)
+## [Settings](projects/settings/planning.html)
 Settings host application
 
 * Use INI or JSON file for settings panels to specify their icon and name and category

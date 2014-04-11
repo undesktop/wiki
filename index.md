@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# [Project Planning Pages](Project-Planning-Documents.html)
+# [Project Planning Pages](planning.html)
