@@ -77,3 +77,12 @@ li.done:before {
 	text-decoration: none;
 	display: inline-block;
 }
+code {
+	font-family: 'M+ 1mn';
+	font-size: 0.9em;
+}
+/* Specification Stuff */
+.note {
+	border-left: #FFF;
+	background-color: #FFF;
+}

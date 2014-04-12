@@ -70,14 +70,16 @@ Key          | Description                                                      
 ## Appendix C: D-Bus Methods {#appendix-dbus-methods}
 
 ### Panel->Host Commands
-> Should we do OOP shit with these or something? {:.note}
+> Should we do OOP shit with these or something?
+{:.note}
 
 `progress_bar_set_text(string text)`
 `progress_bar_set_fraction(double fraction)`
 `progress_bar_pulse()`
 
 ### Host->Panel Commands
-> Half of these seem like they ought to be abstracted more {:.note}
+> Half of these seem like they ought to be abstracted more
+{:.note}
 
 `search_box_activated()`
 `search_box_text_changed()`
