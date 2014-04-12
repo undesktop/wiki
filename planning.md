@@ -64,6 +64,11 @@ Make the best damn email client for Linux
 * Contact Mailbox.app and ask them nicely to let us integrate (pls guise halp)
   * Maybe just read-only?
   * I think we technically have a legal right to reverse-engineer their API for compatibility reasons, if it comes to that?
+* Support for uploading attachments to Dropbox, etc.
+* Support HTML emails fully. Aim for total compliance.
+* Good plaintext email support
+* GMail threading with fallback on internal threading
+* Prettify >greentext block quotes like on iOS (indent with left borders)
 
 ## Calendar
 Calendar & todo list application
