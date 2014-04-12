@@ -70,7 +70,7 @@ Key          | Description                                                      
 ## Appendix C: D-Bus Methods {#appendix-dbus-methods}
 
 ### Panel->Host Commands
-> Should we do OOP shit with these or something?
+> Should we do OOP shit with these or something? `Nuck`{:.sig}
 {:.note}
 
 `progress_bar_set_text(string text)`
@@ -78,7 +78,7 @@ Key          | Description                                                      
 `progress_bar_pulse()`
 
 ### Host->Panel Commands
-> Half of these seem like they ought to be abstracted more
+> Half of these seem like they ought to be abstracted more `Nuck`{:.sig}
 {:.note}
 
 `search_box_activated()`
