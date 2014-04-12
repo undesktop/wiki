@@ -10,8 +10,8 @@ from freedesktop.org -- everything is very heavily based on that.
 The **Settings Host** ("Host") handles listing, displaying, launching, and managing communications
 to and from its Settings Panel ("Panel") subprocesses.
 
-To retrieve the list of Panels, the Host uses [the same algorithm specified for desktop files][
-desktop-entry-spec] (except in `$XDG_DATA_DIRS/spanels/` instead) and looks for [Settings Panel
+To retrieve the list of Panels, the Host uses [the same algorithm specified for desktop files
+][desktop-entry-spec] (except in `$XDG_DATA_DIRS/spanels/` instead) and looks for [Settings Panel
 Specification](#panel-spec-format) ("Spec") files.  For an idea of the defaults, see [Appendix A
 ](#appendix-a)
 
