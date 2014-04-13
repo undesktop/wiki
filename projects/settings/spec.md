@@ -2,16 +2,19 @@
 layout: default
 ---
 
-# Settings Specification
-This specification is awfully written.  Where anything is vague, refer to the Desktop Entry Spec
-from freedesktop.org -- everything is very heavily based on that.
+# Settings Specification {#prelude}
+This specification was not authored by professional spec-writers.  For unspecified or vague things,
+please refer to the [freedesktop.org Desktop Entry Spec][desktop-entry-spec].  This specification
+draws heavily from that document.
+
+[desktop-entry-spec]: http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
 
 ## Settings Host {#host}
 The **Settings Host** ("Host") handles listing, displaying, launching, and managing communications
 to and from its Settings Panel ("Panel") subprocesses.
 
 To retrieve the list of Panels, the Host uses [the same algorithm specified for desktop files
-][desktop-entry-spec] (except in `$XDG_DATA_DIRS/spanels/` instead) and looks for [Settings Panel
+][desktop-entry-algo] (except in `$XDG_DATA_DIRS/spanels/` instead) and looks for [Settings Panel
 Specification](#panel-spec-format) ("Spec") files.  For an idea of the defaults, see [Appendix A
 ](#appendix-a)
 
@@ -19,7 +22,7 @@ When the User requests that the Host should display a Panel, the Host will launc
 subprocess according to the settings in the Spec file and then communicate with it as specified in
 the [Host-Panel Communications](#host-panel-comm) section.
 
-[desktop-entry-spec]: http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#desktop-file-id
+[desktop-entry-algo]: http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#desktop-file-id
 
 ## Settings Panel {#panel}
 The **Settings Panels** handle the actual settings management.  They are given absolute freedom to
