@@ -2,7 +2,13 @@
 layout: default
 ---
 
-# Settings Specification {#prelude}
+# Settings Panel Specification {#top}
+
+## Introduction {#prelude}
+Most, if not all, Desktop Environments contain an application which is used to change the settings
+of various DE-bundled applications.  It would be wise for interoperability to create a unified and
+general-purpose decoupling of the settings panels from the settings application.
+
 This specification was not authored by professional spec-writers.  For unspecified or vague things,
 please refer to the [freedesktop.org Desktop Entry Spec][desktop-entry-spec].  This specification
 draws heavily from that document.
