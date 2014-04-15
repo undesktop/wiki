@@ -7,7 +7,11 @@ layout: default
 ## Introduction {#prelude}
 Most, if not all, Desktop Environments contain an application which is used to change the settings
 of various DE-bundled applications.  It would be wise for interoperability to create a unified and
-general-purpose decoupling of the settings panels from the settings application.
+system for decoupling the settings panels from the main settings application and allow users to
+more easily mix-and-match applications from multiple Desktop Environments.
+
+With this specification, it would be possible to embed settings panels of KDE applications into the
+GNOME Control Center or vice-versa, without forcing the user to think about which DE provided it.
 
 This specification was not authored by professional spec-writers.  For unspecified or vague things,
 please refer to the [freedesktop.org Desktop Entry Spec][desktop-entry-spec].  This specification
