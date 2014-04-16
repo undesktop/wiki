@@ -20,8 +20,19 @@ draws heavily from that document.
 [desktop-entry-spec]: http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
 
 ## Settings Host {#host}
-The **Settings Host** ("Host") handles listing, displaying, launching, and managing communications
-to and from its Settings Panel ("Panel") subprocesses.
+The **Settings Host** handles listing, displaying, launching, and managing communications with
+Settings Panel processes.
+
+### Host-to-Host Signaling
+At any given time, there should only be one Host running.  If a Host is launched while another is
+running, and it received an argument specifying a Panel to display, it is to signal the already
+running Host to display the panel, and then it should exit with a zero exit status.  If it was not
+launched with a request to display a Panel, the Host should just exit with zero status.
+
+How Panels are displayed (as well as whether multiple Panels can run at the same time, perhaps in a
+tabbed layout) is left up to the authors and designers of each Host.  Thus, the handling of a
+request to display a Panel may differ between implementations.  However, they should all should
+function roughly the same: after the request is received, the Host loads the panel and displays it.
 
 To retrieve the list of Panels, the Host uses [the same algorithm specified for desktop files
 ][desktop-entry-algo] (except in `$XDG_DATA_DIRS/spanels/` instead) and looks for [Settings Panel
