@@ -19,8 +19,11 @@ body {
 	font-weight: 300;
 	line-height: 20px;
 }
-strong {
+strong, b {
 	font-weight: bold;
+}
+em, i {
+   font-style: italic;
 }
 .container {
 	margin: 0 auto;
@@ -80,6 +83,7 @@ li.done:before {
 code {
 	font-family: 'M+ 1mn';
 	font-size: 0.9em;
+   white-space: pre;
 }
 /* Specification Stuff */
 .note {
