@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Style Guidelines
 ## General Style
  * **Indent with tabs, align with spaces.**  Where something is both indented and aligned, use them
