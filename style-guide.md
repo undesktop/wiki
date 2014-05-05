@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Style Guidelines
+
 ## General Style
  * **Indent with tabs, align with spaces.**  Where something is both indented and aligned, use them
    properly in combination.  This might be confusing in some cases.  For example, the below code
