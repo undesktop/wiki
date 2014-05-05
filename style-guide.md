@@ -19,7 +19,10 @@ layout: default
    drop Doxygen, because Doxygen is a bloated pile of ass.
  * **Use a modified K&R style for function declarations.**  The main difference is that we put the
    arguments on their own line for clarity and ease of alignment:
-   ```C
+   {% comment %}
+   The following bullshit exists because fenced code blocks in kramdown don't seem to work
+   {% endcomment %}
+   {% highlight c %}
    int main
    (int argc, char *argv[])
    {
@@ -32,7 +35,7 @@ layout: default
    		}
    	}
    }
-   ```
+   {% endhighlight %}
  * **Separate logic and presentation.**  Use classes to build a rough MVC, and then use signals for
    communication between parts.
 
