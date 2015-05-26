@@ -19,6 +19,11 @@ LightDM Greeter
   * Isn't there a libindicator or something that Canonical developed?
     * Does anyone use that?  Should we?
 
+## File Manager
+Simple file manager based on design concepts explicitly stolen from Apple's Finder
+
+* Columnar navigation as the default
+
 ## [Settings](projects/settings/planning.html)
 Settings host application
 
